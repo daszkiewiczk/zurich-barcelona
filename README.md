@@ -29,7 +29,7 @@ Install the Gogs server:
 - run `export GOGS_TOKEN=<YOUR_TOKEN>`
 - run `./add_gogs_repo.py` to add gogs repository and push app code and .tf files
 
-Install Jenkins:
+Install Jenkins and configure Jenkins:
 - go to `http://localhost:8000`
 - install with defaults values
 - create a git pipeline, for url enter the gogs repo url (add_gogs_repo.py script outputs this url)
