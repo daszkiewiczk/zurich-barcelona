@@ -1,7 +1,7 @@
 # NUWE-Zurich-Cloud-Hackathon
 This repository contains my entry for the on-site phase of the NUWE x Zurich Cloud Challenge.
 # Solution description
-Terraform has been utilized to define a VPC, a subnet located in the VPC, two EC2 instances in the subnet together with their security groups and S3 bucket.
+Terraform has been utilized to define a VPC, a subnet located in the VPC, two EC2 instances in the subnet together with their security groups and a S3 bucket.
 
 Terraform's 'file' provisioner has been used to inject python application code into the EC2 instances using ssh the respective ssh keys.
 
