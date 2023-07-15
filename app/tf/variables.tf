@@ -1,6 +1,6 @@
 variable "webapp_instance_size" {
-    type = string
-    default = "t2.micro"
+  type    = string
+  default = "t2.micro"
 }
 
 variable "webapp_azs" {

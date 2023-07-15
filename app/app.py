@@ -7,7 +7,7 @@ import boto3
 app = Flask(__name__)
 
 # S3 bucket name
-Bucket_Name = '' # Your s3 bucket name
+Bucket_Name = 'zurich_images8206986797' # Your s3 bucket name
 
 # AWS Creds
 AWS_ACCESS_KEY = ''
